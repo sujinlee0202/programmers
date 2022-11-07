@@ -15,6 +15,3 @@ const solution = (str) => {
 
   return answer;
 }
-
-console.log(solution("3 + 4"))
-

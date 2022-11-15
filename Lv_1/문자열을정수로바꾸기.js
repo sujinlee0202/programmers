@@ -1,12 +1,4 @@
-const solution = (str) => {
-  let answer;
-
-  answer = Number(str)
-  console.log(answer, typeof(answer))
-
-  return answer;
-}
-
+const solution = (str) => answer = Number(str)
 
 let str = '-1234'
 console.log(solution(str))

@@ -3,14 +3,9 @@ const solution = (n) => {
   for(let i=1; i<n+1; i++) {
     count = 0;
     for(let j=1; j<n+1; j++) {
-      if(i%j === 0) {
-        count++;
-      }
+      if(i%j === 0) count++;
     }
-    console.log('count = ', count)
-    if(count>=3) {
-      answer++;
-    }
+    if(count>=3) answer++;
   }
   return answer
 }
